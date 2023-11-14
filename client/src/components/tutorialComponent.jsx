@@ -93,8 +93,9 @@ const tutorialComponent = () => {
         <div className="pt-24 pb-12 flex flex-col gap-y-5 lg:flex-col lg:items-center lg:gap-x-7">
           {currentTutorial ? (
             <div className="edit-form">
-              <h4 className={`${styles.sectionHeadText}`}>Tutorial</h4>
-              <form className="w-full max-w-sm">
+              <h4 className={`${styles.sectionHeadText} text-[#aaa6c3] text-center`}>Tutorial</h4>
+              <hr></hr>
+              <form className="w-full max-w-sm mt-8">
                 <div className="md:flex md:items-center mb-6">
                   <div className="md:w-1/3">
                     <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="title">
